@@ -5,7 +5,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const customParam = urlParams.get('url');
 
-// 生成随机数字和英文组合
+// 生成随机数字和英文组合 Fr0iy7UeDNxlynjswdEHIcalaTkv
 const randomString = Math.random().toString(36).substring(2); // 生成随机字符串，包括数字和小写字母
 
 // 构建跳转链接
