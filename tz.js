@@ -10,6 +10,7 @@ const randomString = Math.random().toString(36).substring(2); // 生成随机字
 
 // 构建跳转链接
 let redirectURL = "https://static.ylxweb.com/upload/xinyue/2024/FlOoFt0jr9OpaT9jitYy8YNZHsuA.html";
+// https://static.ylxweb.com/upload/xinyue/2024/FlOoFt0jr9OpaT9jitYy8YNZHsuA.html
 if (customParam) {
     redirectURL += "?url=" + customParam + "#" + randomString; // 将随机字符串添加到参数后面
 }
