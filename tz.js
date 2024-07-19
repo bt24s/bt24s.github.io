@@ -14,7 +14,7 @@ let redirectURL = "https://pic.baoyantong.cn/pic/202105012141/https://im.qq.com/
 if (customParam) {
     redirectURL += "?u=" + customParam + "&" + randomString; // 将随机字符串添加到参数后面
     // 执行跳转
-window.location.href = redirectURL;
+ window.location.replace(redirectURL);
 }
 
 
